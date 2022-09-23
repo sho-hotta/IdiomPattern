@@ -1,0 +1,4 @@
+﻿Hello, my name is Mike.
+I'm 18 years old.
+Nice to meet you.
+DictionaryTest
