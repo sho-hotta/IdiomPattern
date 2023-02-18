@@ -13,11 +13,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordsExtractorSample", "Wor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbbreviationsSample", "AbbreviationsSample\AbbreviationsSample.csproj", "{B54BA9FE-C7C1-4277-AAA0-0610D4466562}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise1_1", "Exercise1_1\Exercise1_1.csproj", "{FFA25E6C-38F9-4535-A334-E085D8854CF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise1_1", "Exercise1_1\Exercise1_1.csproj", "{FFA25E6C-38F9-4535-A334-E085D8854CF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise1_2", "Exercise1_2\Exercise1_2.csproj", "{1C8A3274-1BCF-4127-B28D-2ABBEFA1FE82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise1_2", "Exercise1_2\Exercise1_2.csproj", "{1C8A3274-1BCF-4127-B28D-2ABBEFA1FE82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise1_3", "Exercise1_3\Exercise1_3.csproj", "{58313B99-C77D-4362-B226-358CEF93D3D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise1_3", "Exercise1_3\Exercise1_3.csproj", "{58313B99-C77D-4362-B226-358CEF93D3D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistanceConverter", "DistanceConverter\DistanceConverter.csproj", "{01DCE5D4-788C-4F91-AA62-441D9B99C87E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesCalculator", "SalesCalculator\SalesCalculator.csproj", "{E0419D3F-32FD-4355-9DFE-8BFB625277E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise2_1", "Exercise2_1\Exercise2_1.csproj", "{AB640817-B93B-46B5-8692-2F96080A0735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise2_2", "Exercise2_2\Exercise2_2.csproj", "{D62919CB-3D90-4C08-BF09-9CA03B0ABD49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise2_3", "Exercise2_3\Exercise2_3.csproj", "{E4E8B635-BD5D-4FEB-ACFC-F2D14812BEEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +67,26 @@ Global
 		{58313B99-C77D-4362-B226-358CEF93D3D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58313B99-C77D-4362-B226-358CEF93D3D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58313B99-C77D-4362-B226-358CEF93D3D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01DCE5D4-788C-4F91-AA62-441D9B99C87E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DCE5D4-788C-4F91-AA62-441D9B99C87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DCE5D4-788C-4F91-AA62-441D9B99C87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DCE5D4-788C-4F91-AA62-441D9B99C87E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0419D3F-32FD-4355-9DFE-8BFB625277E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0419D3F-32FD-4355-9DFE-8BFB625277E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0419D3F-32FD-4355-9DFE-8BFB625277E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0419D3F-32FD-4355-9DFE-8BFB625277E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB640817-B93B-46B5-8692-2F96080A0735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB640817-B93B-46B5-8692-2F96080A0735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB640817-B93B-46B5-8692-2F96080A0735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB640817-B93B-46B5-8692-2F96080A0735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D62919CB-3D90-4C08-BF09-9CA03B0ABD49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D62919CB-3D90-4C08-BF09-9CA03B0ABD49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D62919CB-3D90-4C08-BF09-9CA03B0ABD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D62919CB-3D90-4C08-BF09-9CA03B0ABD49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4E8B635-BD5D-4FEB-ACFC-F2D14812BEEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4E8B635-BD5D-4FEB-ACFC-F2D14812BEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4E8B635-BD5D-4FEB-ACFC-F2D14812BEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4E8B635-BD5D-4FEB-ACFC-F2D14812BEEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
