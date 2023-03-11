@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using Exercise6_2;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
 
 var books = new List<Book>
 {
@@ -13,11 +15,16 @@ var books = new List<Book>
     new Book { Title = "楽しいC#プログラミング教室", Price = 2540, Pages = 348 },
 };
 
-
 // 6.2.1
 var result1 = books.FirstOrDefault(x => x.Title == "ワンダフル・C#ライフ");
-Console.WriteLine($"価格：{result1.Price}  ページ数：{result1.Pages}");
-
+if (result1 != null)
+{
+    Console.WriteLine($"価格：{result1.Price}  ページ数：{result1.Pages}");
+}
+else
+{
+    WriteNotFindMessage();
+}
 
 // 6.2.2
 var result2 = books.Count(x => x.Title.Contains("C#"));
@@ -31,8 +38,14 @@ Console.WriteLine($"タイトルにC#が含まれている書籍のページ数�
 
 // 6.2.4
 var result4 = books.FirstOrDefault(x => x.Price >= 4000);
-Console.WriteLine($"4000円以上の最初の本：{result4.Title}");
-
+if (result4 != null)
+{
+    Console.WriteLine($"4000円以上の最初の本：{result4.Title}");
+}
+else
+{
+    WriteNotFindMessage();
+}
 
 // 6.2.5
 var result5 = books.Where(x => x.Price < 4000).Max(x => x.Pages);
@@ -48,8 +61,13 @@ foreach (var item in result6)
 
 
 // 6.2.7
-var result7 = books.Where(x => x.Title.Contains("C#")).Where(x => x.Pages <= 500);
+var result7 = books.Where(x => x.Title.Contains("C#") && x.Pages <= 500);
 foreach (var item in result7)
 {
     Console.WriteLine(item.Title);
+}
+
+static void WriteNotFindMessage()
+{
+    Console.WriteLine($"該当する書籍が見つかりません");
 }

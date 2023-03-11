@@ -35,13 +35,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise3_2", "Exercise3_2\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise4", "Exercise4_1\Exercise4.csproj", "{5AD949AA-1B31-47BA-9C05-88D291E0052F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise5_1", "Exercise5_1\Exercise5_1.csproj", "{16D4A37C-B9A7-4AD2-BBCF-41EA54D30191}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise5_1", "Exercise5_1\Exercise5_1.csproj", "{16D4A37C-B9A7-4AD2-BBCF-41EA54D30191}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise5_2", "Exercise5_2\Exercise5_2.csproj", "{0D7DAE63-BCC7-4407-A972-FB7EFCCF4A8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise5_2", "Exercise5_2\Exercise5_2.csproj", "{0D7DAE63-BCC7-4407-A972-FB7EFCCF4A8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise5_3", "Exercise5_3\Exercise5_3.csproj", "{383B6D28-6511-4907-9DEE-AC1D695C6F4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise5_3", "Exercise5_3\Exercise5_3.csproj", "{383B6D28-6511-4907-9DEE-AC1D695C6F4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise5_4", "Exercise5_4\Exercise5_4.csproj", "{6BCFABB4-253F-460C-A39A-4AF0C0D0823D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise5_4", "Exercise5_4\Exercise5_4.csproj", "{6BCFABB4-253F-460C-A39A-4AF0C0D0823D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
