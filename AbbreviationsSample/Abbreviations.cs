@@ -10,7 +10,9 @@ namespace AbbreviationsSample
     // 略語と対応する日本語を管理するクラス
     internal class Abbreviations
     {
-        public Dictionary<string, string> _dict = new Dictionary<string, string>();
+        private Dictionary<string, string> _dict = new Dictionary<string, string>();
+        // 7.2.1
+        public int Count => _dict.Count;
 
         // コンストラクタ
         public Abbreviations()
@@ -24,6 +26,13 @@ namespace AbbreviationsSample
         public void Add(string abbr, string japanese)
         {
             _dict[abbr] = japanese;
+        }
+
+        // 7.2.2
+        // 要素を削除
+        public bool Remove(string abbr)
+        {
+            return _dict.Remove(abbr);
         }
 
         // インデクサ - 省略語をキーに取る
@@ -50,6 +59,16 @@ namespace AbbreviationsSample
                 {
                     yield return item;
                 }
+            }
+        }
+
+        // 7.2.4
+        public IEnumerable<KeyValuePair<string, string>> GetThreeLettersAbbreviation()
+        {
+            foreach(var item in _dict)
+            {
+                if (item.Key.Length == 3)
+                    yield return item;
             }
         }
     }
